@@ -1,0 +1,183 @@
+@media (width > 1440px){
+    header{
+        width: 1440px;
+        padding-top: 20px;
+    }
+
+    .mainBox{
+        padding-left: 165px;
+        margin-top: 20px;
+        width: 1440px;
+        position: relative;
+        z-index: 2;
+    }
+    .topPic{
+        position: absolute;
+        top: 177px;
+        right: 120px;
+        z-index: 3;
+    }
+    .family{
+        width: 500px;
+    }
+
+    .bottomRight{
+        top: 1px;
+        right: 1px;
+    }
+
+    .Rtop{
+        display: block;
+        position: absolute;
+        top: 320px;
+        left: 0;
+    }
+
+    h1{
+        width: 540px;
+        height: 140px;
+        text-align: start;
+        font-size: 75px;
+        line-height: 64px;
+    }
+    .pInBox{
+        width: 540px;
+        height: 84px;
+        text-align: start;
+    }
+    .viewPlans:hover{
+        background-color: white;
+    }
+    h4:hover{
+        color: black;
+    }
+
+    .viewPlans{
+        margin-left: 24px;
+    }
+
+    .xazi{
+        width: 200px;
+        margin-top: 335px;
+        margin-left: 277px;
+    }
+
+    h2{
+        margin-left: -625px;
+        font-size: 72px;
+        line-height: 64px;
+        padding-bottom: 40px;
+    }
+
+    .flexs{
+        display: flex;
+        flex-direction: row;
+        text-align: start;
+        column-gap: 45px;
+        margin-left: 45px;
+    }
+
+    .flexText{
+        width: 350px;
+        height: 78px;
+    }
+
+    .pic1{
+        margin-top: 54px;
+    }
+
+    .bottomBox{
+        width: 1100px;
+        height: 250px;
+        display: flex;
+        flex-direction: row;
+    }
+    .background{
+        left: 827px;
+    }
+    h3{
+        margin-left: 84px;
+        margin-top: 69px;
+        text-align: start;
+        width: 475px;
+        font-size: 55px;
+        line-height: 56px;
+    }
+
+    .work{
+        margin-top: 105px;
+        margin-right: 100px;
+    }
+    .work:hover{
+        background-color: var(--grey);
+    }
+
+    footer{
+        width: 1440px;
+    }
+
+    .bigFooter{
+        flex-direction: row;
+        column-gap: 260px;
+    }
+    .logo{
+        display: flex;
+        margin-top: -20px;
+        margin-left: 1100px;
+    }
+
+    .logo:hover{
+        background-color: beige;
+    }
+
+    .right{
+        display: none;
+    }
+
+    .headerNone{
+        position: absolute;
+        left: 770px;
+        padding-right: 165px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        column-gap: 25px;
+        margin-top: 24px;  
+    }
+    .headerText{
+        margin-top: 16px;
+        color: var(--grey);
+        font-family: 'Karla';
+        font-size: 13px;
+        font-weight: 700;
+        letter-spacing: 1.5px;
+    }
+
+    button{
+        position: absolute;
+        top: -43px;
+        right: -30px;
+        height: 40px;
+        width: 146px;
+        background-color: #2C2830;
+        border: none;
+    }
+
+    button:hover{
+        border: 2px solid blue;
+        cursor: pointer;
+    }
+    .headerText2{
+        color: #FFF;
+        text-align: center;
+        font-family: 'Karla';
+        font-size: 13px;
+        font-weight: 700;
+        letter-spacing: 1.5px;
+    }
+
+    .headerText:hover{
+        color: #2C2830;
+        cursor: pointer;
+    }
+}
